@@ -1,0 +1,108 @@
+/* Contenedor principal del formulario */
+#formuingreso .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Fila del formulario */
+#formuingreso .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 100px;
+}
+
+/* Columna que contiene el formulario */
+#formuingreso .col-4 {
+    background-color: #b2cac5;
+    margin-top: 20px;
+    border: 2px solid rgb(19, 13, 22);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 10px rgb(88, 85, 89);
+}
+
+/* Título del formulario */
+#formuingreso h2 {
+    text-align: center;
+    color: #0d0909;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Campos de entrada del formulario */
+#formuingreso .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Campo de entrada en foco */
+#formuingreso .form-control:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Botón de envío */
+#formuingreso .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #636c69;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón de envío en hover */
+#formuingreso .btn:hover {
+    background-color: #ba8f8e;
+}
+
+.container2 img {
+    text-align: center;
+
+
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    #formuingreso .col-4 {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #formuingreso .col-4 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #formuingreso h2 {
+        font-size: 18px;
+    }
+
+    #formuingreso .btn {
+        font-size: 14px;
+    }
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: auto;
+  }

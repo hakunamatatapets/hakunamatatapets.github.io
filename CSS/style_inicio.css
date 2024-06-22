@@ -1,0 +1,111 @@
+/*subtitulos  HAKUNA centrados*/
+.container{
+    text-align: center;
+}
+
+/*imagen perritos centrada*/
+.imagen {
+    display: flex; 
+    justify-content: center;    
+}
+
+.imagen img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*para centrar todo el contenido*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.articulo {
+    text-align: justify;
+    transition: box-shadow 0.3s ease;
+    background-color: #ffffff;
+    padding: 20px ;
+    border-radius: 10px;
+}
+
+.articulo:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3); /* Agrega una sombra al artículo cuando se le selecciona con el mouse */
+}
+/*para separar contenido y que quedara uno al frente del otro*/
+article {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.nuestros-servicios {
+    display: flex;
+    flex-direction: column;
+}
+.servicio {
+    display:flex
+
+}
+.servicio > div {
+    margin-right: 50px;
+}
+/*ancho de las imagenes de servicios*/
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+/* Imagenes de nuestros servicios */
+.servicio {
+    width: 250px;
+    height: 250px;
+    margin-right: 25px;
+    background-color: #ffffffcc;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+
+/*para organizar los titulos de cada imagen*/
+.etiqueta {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 0; /* Coloca la etiqueta en la parte superior del contenedor */
+    left: 0; /* Coloca la etiqueta en la parte izquierda del contenedor */
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente */
+    padding: 5px; /* Añade espacio alrededor del texto */
+    border-radius: 5px; /* Redondea los bordes de la etiqueta */
+}
+
+.servicio img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+}
+
+/* Para cuando seleccione con el mouse y cambie de color. rgba(27, 25, 25, 0.3) */
+.servicio:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(27, 25, 25, 0.3);
+ }
+ 
+ .inline-block {
+    display: inline-block ;
+    height: 40px;
+    background-color: aqua ;
+ }
+
+ .subtitulo2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*centrado*/
+.subtitulo3 {
+    text-align: center;
+    font-size: 25px;
+}

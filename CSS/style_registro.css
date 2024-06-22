@@ -1,0 +1,90 @@
+/* Contenedor principal del formulario */
+#formuRegistro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Fila del formulario */
+#formuRegistro .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Columna que contiene el formulario */
+#formuRegistro .col-6 {
+    background-color: #78827e;
+    margin-top: 20px;
+    border: 2px solid rgb(19, 13, 22);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 10px rgb(88, 85, 89);
+}
+
+/* Título del formulario */
+#formuRegistro h2 {
+    text-align: center;
+    color: #0d0909;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada del formulario */
+#formuRegistro .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Campo de entrada en foco */
+#formuRegistro .form-control:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Botón de envío */
+#formuRegistro .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e3f3a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón de envío en hover */
+#formuRegistro .btn:hover {
+    background-color: #787075;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    #formuRegistro .col-6 {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #formuRegistro .col-6 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #formuRegistro h2 {
+        font-size: 18px;
+    }
+
+    #formuRegistro .btn {
+        font-size: 14px;
+    }
+}

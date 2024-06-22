@@ -1,0 +1,111 @@
+/*aca comienza el estilo de la pagina servicios, lo anterior a esto es la base del formato*/
+.titulo1 h1 {
+    color: rgb(13, 79, 51);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parrafo1 p {
+    text-align: center;
+    font-size: 25px; 
+}
+
+.imgpeluqueria img{
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 250px;
+}
+
+.imagen:hover {
+    border: 3px solid rgb(39, 37, 37); 
+} 
+
+.container h3 {
+    color: rgb(12, 83, 37);
+    font-size: 35px;
+}   
+
+.container p {
+    font-size: 20px;
+}
+
+.titulo2 h1 {
+    color: rgb(13, 79, 51);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color: rgb(110, 233, 72);
+}
+
+/*Parte de david*/
+
+.titulo5 {
+    color: rgb(9, 18, 14);
+    text-align: center;
+    font-size: 70px;
+} 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 40px;
+}
+
+.servicio {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-right: 25px;
+    background-color: #ffffffcc;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+
+.etiqueta {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 0; /* Coloca la etiqueta en la parte superior del contenedor */
+    left: 0; /* Coloca la etiqueta en la parte izquierda del contenedor */
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente */
+    padding: 5px; /* Añade espacio alrededor del texto */
+    border-radius: 5px; /* Redondea los bordes de la etiqueta */
+}
+
+.servicio img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+}
+
+/* Para cuando seleccione con el mouse y cambie de color. */
+.servicio:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(27, 25, 25, 0.3);
+ }
+
+#servicioGuarderia, #servicioPeluqueria, #servicioPaseos {
+    display: none;
+    text-align: center;
+}
+
+.notificacion {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(12, 90, 64);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* aca finaliza el estilo de la pagina de servicios, lo que esta por fuera de estos 
+comentarios es la base del formato*/
