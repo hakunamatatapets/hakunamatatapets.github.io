@@ -2,7 +2,7 @@
 		<h4> Información de contacto</h4>
 		<ul>
 			<li>Telefono: 311 468 77 32</li>
-			<li> Correo: hakunamatatapets@gmail.com</li>
+			<li> Correo: hakunamatatapets8@gmail.com</li>
 			<li> Direccion: Calle 10 # 76 18</li>
 		</ul>
 
